@@ -4,11 +4,8 @@
 
 [![GitHub](https://img.shields.io/github/stars/THUDM/DeepDive?style=social)](https://github.com/THUDM/DeepDive)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.10446-b31b1b.svg)](https://arxiv.org/pdf/2509.10446)
-[![Dataset](https://img.shields.io/badge/🤗%20Dataset-Coming%20soon-blueviolet)](#)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-DeepDive-blueviolet)](https://huggingface.co/datasets/zai-org/DeepDive)
 [![Model](https://img.shields.io/badge/🤗%20Model-Coming%20soon-ffcc00)](#)
-
-<!-- [![Dataset](https://img.shields.io/badge/🤗%20Dataset-DeepDive-blueviolet)](https://huggingface.co/datasets/THUDM/DeepDive)
-[![Model](https://img.shields.io/badge/🤗%20Model-DeepDive-ffcc00)](https://huggingface.co/THUDM/DeepDive) -->
 
 </div>
 
@@ -16,6 +13,11 @@
   <img src="./assets/combine_head_figure.svg" alt="Multi-Turn RL Training" width="100%">
   <p><em> </em></p>
 </div>
+
+## 🔥 News
+
+- **[2025/09/17]** QA pairs and SFT trajectories have been fully open-sourced, totaling 4,108 entries. Check them out on [Hugging Face Dataset DeepDive](https://huggingface.co/datasets/zai-org/DeepDive).
+- Model and code are currently under development – coming soon!
 
 ## Overview
 
@@ -146,7 +148,7 @@ We evaluate DeepDive on four challenging deep search benchmarks: BrowseComp, Bro
 | DeepDive-32B (sft-only)        | ✓      | ✓      | 9.5        | 23.0          | 48.5              | 23.9     |
 | **DeepDive-32B**               | ✓      | ✓      | **14.8**   | **25.6**      | **50.5**          | **29.3** |
 
-> [!NOTE] 
+> [!NOTE]
 > `*` represents reported performance from existing studies. `†` represents equipping browsing via function call.
 
 **Generalization on Simple Search Tasks**
