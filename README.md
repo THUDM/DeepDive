@@ -16,6 +16,7 @@
 
 ## 🔥 News
 
+- **[2025/10/02]** Released the complete [data construction pipeline](./qa_synthetic) — now fully available in the repository.
 - **[2025/09/17]** QA pairs and SFT trajectories have been fully open-sourced, totaling 4,108 entries. Check them out on [Hugging Face Dataset DeepDive](https://huggingface.co/datasets/zai-org/DeepDive).
 - Model and code are currently under development – coming soon!
 
@@ -200,7 +201,9 @@ Training with i.i.d. data brings larger improvements. The 32B-RL model reaches 2
 | 32B            | i.i.d. | **22.2**   | **33.9**      | **56.0**          | 23.0     |
 
 > [!NOTE]
-> Given the contamination analysis, both the KG data and i.i.d. data are adopted by the open [GLM-4.5](https://z.ai/blog/glm-4.5) models, which show strong performance on BrowseComp.
+> Given the contamination analysis, both the KG data and i.i.d. data are adopted by the open
+> <a href="https://z.ai" target="_blank" rel="noreferrer">
+> <img src="./assets/z-ai.svg" alt="Z-AI" width="18" style="vertical-align:-3px;"> > </a> > [GLM-4.5](https://z.ai/blog/glm-4.5) / [GLM-4.6](https://z.ai/blog/glm-4.6) models, which show strong performance on BrowseComp.
 
 ## Acknowledgments
 
