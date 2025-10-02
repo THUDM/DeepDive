@@ -203,7 +203,8 @@ Training with i.i.d. data brings larger improvements. The 32B-RL model reaches 2
 > [!NOTE]
 > Given the contamination analysis, both the KG data and i.i.d. data are adopted by the open
 > <a href="https://z.ai" target="_blank" rel="noreferrer">
-> <img src="./assets/z-ai.svg" alt="Z-AI" width="18" style="vertical-align:-3px;"> > </a> > [GLM-4.5](https://z.ai/blog/glm-4.5) / [GLM-4.6](https://z.ai/blog/glm-4.6) models, which show strong performance on BrowseComp.
+>   <img src="./assets/z-ai.svg" alt="Z-AI" width="18" style="vertical-align:-3px;">
+> </a>&nbsp;[GLM-4.5](https://z.ai/blog/glm-4.5) / [GLM-4.6](https://z.ai/blog/glm-4.6) models, which show strong performance on BrowseComp.
 
 ## Acknowledgments
 
