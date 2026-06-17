@@ -16,9 +16,10 @@
 
 ## 🔥 News
 
+- **[2026/06/17]** Released the [training code](./training) with the DeepDive slime rollout setup.
 - **[2025/10/02]** Released the complete [data construction pipeline](./qa_synthetic) — now fully available in the repository.
 - **[2025/09/17]** QA pairs and SFT trajectories have been fully open-sourced, totaling 4,108 entries. Check them out on [Hugging Face Dataset DeepDive](https://huggingface.co/datasets/zai-org/DeepDive).
-- Model and code are currently under development – coming soon!
+- Model checkpoints are currently under development – coming soon!
 
 ## Overview
 
@@ -73,6 +74,9 @@ r(\mathcal{T}) = \begin{cases} 1, & (\forall i, \text{Format}(c_i, a_i)) \wedge 
 $$
 
 This strict reward mechanism ensures high-quality trajectories and prevents reward hacking.
+
+For the recommended DeepDive training interface and slime rollout setup, see
+[`training/README.md`](./training/README.md).
 
 ## Models
 
